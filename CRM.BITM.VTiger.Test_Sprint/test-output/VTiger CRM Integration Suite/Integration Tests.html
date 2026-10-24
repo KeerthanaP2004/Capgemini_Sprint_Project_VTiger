@@ -1,0 +1,664 @@
+<html>
+<head>
+<title>TestNG:  Integration Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Integration Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/14/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 19:20:20 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3233 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>integration </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI.TC_VT_PM_10_AddIconOpensNewForm()'><b>TC_VT_PM_10_AddIconOpensNewForm</b><br>Test class: CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI<br/>
+<a href="#Output-1367937032" onClick='toggleBox("Output-1367937032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367937032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367937032">
+START: TC-VT-PM-10<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectMilestonesModule(org.openqa.selenium.WebDriver)&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI.TC_VT_PM_10_AddIconOpensNewForm(VTiger_CRM_Project_Milestone_TS1_Navigation_UI.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1367937032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1367937032'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectMilestonesModule(org.openqa.selenium.WebDriver)&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI.TC_VT_PM_10_AddIconOpensNewForm(VTiger_CRM_Project_Milestone_TS1_Navigation_UI.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI@70e9c95d</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5.TC_VT_PT_10_VerifyAddIconOpensTaskForm()'><b>TC_VT_PT_10_VerifyAddIconOpensTaskForm</b><br>Test class: CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5<br/>
+<a href="#Output-1363800072" onClick='toggleBox("Output-1363800072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1363800072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363800072">
+START: TC-VT-PT-10<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5.TC_VT_PT_10_VerifyAddIconOpensTaskForm(VTiger_CRM_ProjectTask_TS5.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1363800072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1363800072'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5.TC_VT_PT_10_VerifyAddIconOpensTaskForm(VTiger_CRM_ProjectTask_TS5.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5@52719fb6</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5.TC_VT_PROJ_04_UpdateProjectProgress()'><b>TC_VT_PROJ_04_UpdateProjectProgress</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5.TC_VT_PROJ_04_UpdateProjectProgress(VTiger_CRM_Project_TS5.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace472234151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace472234151'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5.TC_VT_PROJ_04_UpdateProjectProgress(VTiger_CRM_Project_TS5.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5@5824a83d</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_02_VerifyRelatedProjectSelection()'><b>TC_VT_PT_02_VerifyRelatedProjectSelection</b><br>Test class: CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2<br/>
+<a href="#Output-273777019" onClick='toggleBox("Output-273777019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-273777019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-273777019">
+START: TC-VT-PT-02<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_02_VerifyRelatedProjectSelection(VTiger_CRM_ProjectTask_TS2.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace273777019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace273777019'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_02_VerifyRelatedProjectSelection(VTiger_CRM_ProjectTask_TS2.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2@51c668e3</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6.TC_VT_PROJ_12_EndToEndProjectWorkflow()'><b>TC_VT_PROJ_12_EndToEndProjectWorkflow</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6<br/>
+<a href="#Output-1028472807" onClick='toggleBox("Output-1028472807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1028472807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1028472807">
+Executing TC-VT-P-01<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6.TC_VT_PROJ_12_EndToEndProjectWorkflow(VTiger_CRM_Project_TS6.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1028472807", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1028472807'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6.TC_VT_PROJ_12_EndToEndProjectWorkflow(VTiger_CRM_Project_TS6.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6@537f60bf</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_10_VerifyAddProjectFormOpens()'><b>TC_VT_PROJ_10_VerifyAddProjectFormOpens</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_10_VerifyAddProjectFormOpens(VTiger_CRM_Project_TS1.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1460126155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1460126155'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_10_VerifyAddProjectFormOpens(VTiger_CRM_Project_TS1.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1@3012646b</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4.TC_VT_PROJ_02_SearchSavedProject()'><b>TC_VT_PROJ_02_SearchSavedProject</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4.TC_VT_PROJ_02_SearchSavedProject(VTiger_CRM_Project_TS4.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace347808407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace347808407'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4.TC_VT_PROJ_02_SearchSavedProject(VTiger_CRM_Project_TS4.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4@7b36aa0c</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2.verifyCreateFAQButton()'><b>verifyCreateFAQButton</b><br>Test class: CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2<br/>
+<a href="#Output-925568390" onClick='toggleBox("Output-925568390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-925568390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-925568390">
+TC-VT-FAQ-09: Verify Create FAQ button.<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openFAQModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2.verifyCreateFAQButton(VTiger_CRM_FAQ_TS2.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace925568390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace925568390'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openFAQModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2.verifyCreateFAQButton(VTiger_CRM_FAQ_TS2.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2@18df8434</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create.TC_VT_PM_03_CreateMilestoneWithValidDetails()'><b>TC_VT_PM_03_CreateMilestoneWithValidDetails</b><br>Test class: CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create<br/>
+<a href="#Output-583015088" onClick='toggleBox("Output-583015088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-583015088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-583015088">
+START: TC-VT-PM-03<br/>
+Milestone date entered in yyyy-MM-dd format: 2026-11-30<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectMilestonesModule(org.openqa.selenium.WebDriver)&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create.createMilestoneFromExcel(VTiger_CRM_Project_Milestone_TS2_Create.java:74)
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create.TC_VT_PM_03_CreateMilestoneWithValidDetails(VTiger_CRM_Project_Milestone_TS2_Create.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace583015088", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace583015088'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectMilestonesModule(org.openqa.selenium.WebDriver)&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create.createMilestoneFromExcel(VTiger_CRM_Project_Milestone_TS2_Create.java:74)
+	at CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create.TC_VT_PM_03_CreateMilestoneWithValidDetails(VTiger_CRM_Project_Milestone_TS2_Create.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create@4d5650ae</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyCreateButtonOpensForm()'><b>verifyCreateButtonOpensForm</b><br>Test class: CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1<br>Test method: TC-VT-SC-09 - Verify create button navigation</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openServiceContractsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyCreateButtonOpensForm(VTiger_CRM_ServiceContracts_TS1.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace712732521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace712732521'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openServiceContractsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyCreateButtonOpensForm(VTiger_CRM_ServiceContracts_TS1.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1@4d154ccd</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3.TC_VT_PROJ_01_CreateProject()'><b>TC_VT_PROJ_01_CreateProject</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3<br/>
+<a href="#Output-1568949719" onClick='toggleBox("Output-1568949719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1568949719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1568949719">
+Executing TC-VT-P-01<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3.TC_VT_PROJ_01_CreateProject(VTiger_CRM_Project_TS3.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1568949719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1568949719'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3.TC_VT_PROJ_01_CreateProject(VTiger_CRM_Project_TS3.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3@25641d39</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1.verifyFAQListNavigation()'><b>verifyFAQListNavigation</b><br>Test class: CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1<br/>
+<a href="#Output-512256603" onClick='toggleBox("Output-512256603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-512256603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-512256603">
+TC-VT-FAQ-08: Verify FAQ list navigation.<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openFAQModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1.verifyFAQListNavigation(VTiger_CRM_FAQ_TS1.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace512256603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace512256603'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openFAQModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1.verifyFAQListNavigation(VTiger_CRM_FAQ_TS1.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1@5677323c</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyServiceContractsListNavigation()'><b>verifyServiceContractsListNavigation</b><br>Test class: CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1<br>Test method: TC-VT-SC-08 - Verify Service Contracts list</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openServiceContractsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyServiceContractsListNavigation(VTiger_CRM_ServiceContracts_TS1.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace205615258", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace205615258'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openServiceContractsModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1.verifyServiceContractsListNavigation(VTiger_CRM_ServiceContracts_TS1.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1@4d154ccd</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_12_EndToEndCreateAndVerifyTask()'><b>TC_VT_PT_12_EndToEndCreateAndVerifyTask</b><br>Test class: CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2<br/>
+<a href="#Output-1418315639" onClick='toggleBox("Output-1418315639", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418315639" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418315639">
+START: TC-VT-PT-12<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_12_EndToEndCreateAndVerifyTask(VTiger_CRM_ProjectTask_TS2.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418315639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418315639'><pre>java.lang.NullPointerException: Cannot invoke &quot;CRM.BITM.VTiger.POM.VTiger_CRM_HomePage.openProjectTasksModule()&quot; because &quot;this.homePage&quot; is null
+	at CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2.TC_VT_PT_12_EndToEndCreateAndVerifyTask(VTiger_CRM_ProjectTask_TS2.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2@51c668e3</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>TestNG:  Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 24 11:33:31 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>368 seconds (368799 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6.TC_VT_PROJ_12_EndToEndProjectWorkflow()'><b>TC_VT_PROJ_12_EndToEndProjectWorkflow</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6<br/>
+<a href="#Output-527962712" onClick='toggleBox("Output-527962712", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-527962712" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-527962712">
+Executing TC-VT-P-01<br/>
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+Project name entered.<br/>
+Project description entered.<br/>
+Project Save button clicked.<br/>
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+Project search submitted for: QA_Project_Module4<br/>
+TC-VT-PROJ-12: Project creation and saved-record search verification completed.<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6@c88a337</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_10_VerifyAddProjectFormOpens()'><b>TC_VT_PROJ_10_VerifyAddProjectFormOpens</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1<br/>
+<a href="#Output-1691554967" onClick='toggleBox("Output-1691554967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1691554967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1691554967">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+TC-VT-PROJ-10 passed.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1@4f2b503c</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5.TC_VT_PROJ_04_UpdateProjectProgress()'><b>TC_VT_PROJ_04_UpdateProjectProgress</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5<br/>
+<a href="#Output-1407330756" onClick='toggleBox("Output-1407330756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1407330756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1407330756">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+Project search submitted for: QA_Project_Module4<br/>
+Project detail page opened.<br/>
+Project progress updated successfully to: 50%<br/>
+TC-VT-PROJ-04: Project progress updated and verified.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5@342c38f8</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_09_VerifyProjectsModuleURL()'><b>TC_VT_PROJ_09_VerifyProjectsModuleURL</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1<br/>
+<a href="#Output-1207038039" onClick='toggleBox("Output-1207038039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1207038039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1207038039">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+TC-VT-PROJ-09 navigation check passed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1@4f2b503c</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4.TC_VT_PROJ_02_SearchSavedProject()'><b>TC_VT_PROJ_02_SearchSavedProject</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4<br/>
+<a href="#Output-697149093" onClick='toggleBox("Output-697149093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-697149093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-697149093">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+Project search submitted for: QA_Project_Module4<br/>
+TC-VT-PROJ-02: Project found in search results.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4@43dac38f</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2.TC_VT_PROJ_07_VerifyBlankProjectNameValidation()'><b>TC_VT_PROJ_07_VerifyBlankProjectNameValidation</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2<br/>
+<a href="#Output-1506319778" onClick='toggleBox("Output-1506319778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1506319778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1506319778">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+Project Save button clicked.<br/>
+TC-VT-PROJ-07: Correct blank-name validation alert displayed.<br/>
+TC-VT-PROJ-07 passed: Blank Project Name was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2@2ed2d9cb</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_05_VerifyNewProjectFormFields()'><b>TC_VT_PROJ_05_VerifyNewProjectFormFields</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1<br/>
+<a href="#Output-1676176355" onClick='toggleBox("Output-1676176355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1676176355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1676176355">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+TC-VT-PROJ-05 passed.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1@4f2b503c</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3.TC_VT_PROJ_01_CreateProject()'><b>TC_VT_PROJ_01_CreateProject</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3<br/>
+<a href="#Output-1209480028" onClick='toggleBox("Output-1209480028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209480028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209480028">
+Executing TC-VT-P-01<br/>
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+Project name entered.<br/>
+Project description entered.<br/>
+Project Save button clicked.<br/>
+Project form submitted. Saved record must be verified.<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3@d5b810e</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2.TC_VT_PROJ_13_VerifyProjectFormUsability()'><b>TC_VT_PROJ_13_VerifyProjectFormUsability</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2<br/>
+<a href="#Output-623656961" onClick='toggleBox("Output-623656961", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623656961" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623656961">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+TC-VT-PROJ-13 basic usability checked.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS2@2ed2d9cb</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3.TC_VT_PROJ_11_ProjectCreationSmokeTest()'><b>TC_VT_PROJ_11_ProjectCreationSmokeTest</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3<br/>
+<a href="#Output-1445147862" onClick='toggleBox("Output-1445147862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445147862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445147862">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+New Project form opened successfully.<br/>
+Project name entered.<br/>
+Project description entered.<br/>
+Project Save button clicked.<br/>
+Project creation smoke flow submitted.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3@d5b810e</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4.TC_VT_PROJ_08_SearchNonexistentProject()'><b>TC_VT_PROJ_08_SearchNonexistentProject</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4<br/>
+<a href="#Output-718766145" onClick='toggleBox("Output-718766145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718766145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718766145">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+Project search submitted for: QA_Project_Not_Existing_20261018<br/>
+TC-VT-PROJ-08: No matching project was found.<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4@43dac38f</td></tr>
+<tr>
+<td title='CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1.TC_VT_PROJ_06_VerifyProjectsNavigation()'><b>TC_VT_PROJ_06_VerifyProjectsNavigation</b><br>Test class: CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1<br/>
+<a href="#Output-765803224" onClick='toggleBox("Output-765803224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-765803224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-765803224">
+Opening Projects module.<br/>
+Projects module opened successfully.<br/>
+TC-VT-PROJ-06 passed.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1@4f2b503c</td></tr>
+</table><p>
+</body>
+</html>

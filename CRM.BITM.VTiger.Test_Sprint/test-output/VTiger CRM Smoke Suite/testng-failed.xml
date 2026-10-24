@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger CRM Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="bt"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+          <include name="TC_VT_PROJ_06_VerifyProjectsNavigation"/>
+          <include name="TC_VT_PROJ_10_VerifyAddProjectFormOpens"/>
+          <include name="login"/>
+          <include name="navigateTOApp"/>
+          <include name="dbConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1 -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [VTiger CRM Smoke Suite] -->

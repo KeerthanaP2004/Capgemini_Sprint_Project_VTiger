@@ -1,0 +1,27 @@
+# Browser and Application
+browser=chrome
+url=http://49.249.29.4:8888/
+
+# Valid Login Credentials
+username=admin
+password=admin
+
+# Invalid Login Credentials
+invalidUsername=invalid_user
+invalidPassword=invalid_password
+
+# Boundary Test Inputs - Empty Values
+boundaryUsername=
+boundaryPassword=
+
+# Boundary Test Inputs - Single Character
+invalidBoundaryUsername=a
+invalidBoundaryPassword=a
+
+# Wait Configuration (seconds)
+implicitWait=2
+explicitWait=15
+
+# Expected Home Page Navigation
+homeModule=module=home
+homeAction=action=index

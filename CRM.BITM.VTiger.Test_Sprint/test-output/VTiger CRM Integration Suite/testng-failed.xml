@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger CRM Integration Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integration Tests(failed)">
+    <groups>
+      <run>
+        <include name="integration"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="TC_VT_PT_10_VerifyAddIconOpensTaskForm"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS5 -->
+      <class name="CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="TC_VT_PM_03_CreateMilestoneWithValidDetails"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS2_Create -->
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="TC_VT_PROJ_02_SearchSavedProject"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS4 -->
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+          <include name="TC_VT_PROJ_12_EndToEndProjectWorkflow"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS6 -->
+      <class name="CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="TC_VT_PT_02_VerifyRelatedProjectSelection"/>
+          <include name="TC_VT_PT_12_EndToEndCreateAndVerifyTask"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project_Task.VTiger_CRM_ProjectTask_TS2 -->
+      <class name="CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+          <include name="verifyCreateFAQButton"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS2 -->
+      <class name="CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="verifyCreateButtonOpensForm"/>
+          <include name="closeConnection"/>
+          <include name="verifyServiceContractsListNavigation"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.ServiceContracts.VTiger_CRM_ServiceContracts_TS1 -->
+      <class name="CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="TC_VT_PM_10_AddIconOpensNewForm"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.ProjectMilestone.VTiger_CRM_Project_Milestone_TS1_Navigation_UI -->
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+          <include name="TC_VT_PROJ_04_UpdateProjectProgress"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS5 -->
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="TC_VT_PROJ_01_CreateProject"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS3 -->
+      <class name="CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+          <include name="TC_VT_PROJ_10_VerifyAddProjectFormOpens"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.Project.VTiger_CRM_Project_TS1 -->
+      <class name="CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1">
+        <methods>
+          <include name="verifyFAQListNavigation"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="at"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- CRM.BITM.VTiger.FAQ.VTiger_CRM_FAQ_TS1 -->
+    </classes>
+  </test> <!-- Integration Tests(failed) -->
+</suite> <!-- Failed suite [VTiger CRM Integration Suite] -->
