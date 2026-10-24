@@ -44,6 +44,33 @@
       <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
     </line>
     <line>
+      <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
+    </line>
+    <line>
+      <![CDATA[Browser window verified. Window count: 1]]>
+    </line>
+    <line>
+      <![CDATA[All shared Page Object Model objects initialized.]]>
+    </line>
+    <line>
+      <![CDATA[Automatic login skipped for login-page tests.]]>
+    </line>
+    <line>
+      <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+    </line>
+    <line>
+      <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+    </line>
+    <line>
+      <![CDATA[STEP 2: Waiting for login page elements.]]>
+    </line>
+    <line>
       <![CDATA[Application URL: http://49.249.29.4:8888/]]>
     </line>
     <line>
@@ -56,6 +83,15 @@
       <![CDATA[STEP 3: Entering username.]]>
     </line>
     <line>
+      <![CDATA[Login page is ready.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 3: Entering username.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 4: Entering password.]]>
+    </line>
+    <line>
       <![CDATA[STEP 4: Entering password.]]>
     </line>
     <line>
@@ -63,6 +99,15 @@
     </line>
     <line>
       <![CDATA[STEP 5: Clicking Login.]]>
+    </line>
+    <line>
+      <![CDATA[Password entered. Sensitive values are not logged.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 5: Clicking Login.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 6: Verifying Home page navigation.]]>
     </line>
     <line>
       <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
@@ -107,48 +152,6 @@
       <![CDATA[STEP 5: Clicking Login.]]>
     </line>
     <line>
-      <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
-    </line>
-    <line>
-      <![CDATA[Browser window verified. Window count: 1]]>
-    </line>
-    <line>
-      <![CDATA[All shared Page Object Model objects initialized.]]>
-    </line>
-    <line>
-      <![CDATA[Automatic login skipped for login-page tests.]]>
-    </line>
-    <line>
-      <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-    </line>
-    <line>
-      <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-    </line>
-    <line>
-      <![CDATA[STEP 2: Waiting for login page elements.]]>
-    </line>
-    <line>
-      <![CDATA[Login page is ready.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 3: Entering username.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 4: Entering password.]]>
-    </line>
-    <line>
-      <![CDATA[Password entered. Sensitive values are not logged.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 5: Clicking Login.]]>
-    </line>
-    <line>
       <![CDATA[STEP 6: Verifying Home page navigation.]]>
     </line>
     <line>
@@ -158,7 +161,37 @@
       <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
     </line>
     <line>
-      <![CDATA[EXECUTION TIME: 52.7362968 seconds]]>
+      <![CDATA[EXECUTION TIME: 60.3700597 seconds]]>
+    </line>
+    <line>
+      <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Automatic logout skipped for login-page tests.]]>
+    </line>
+    <line>
+      <![CDATA[Automatic login skipped for login-page tests.]]>
+    </line>
+    <line>
+      <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+    </line>
+    <line>
+      <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
+    </line>
+    <line>
+      <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
+    </line>
+    <line>
+      <![CDATA[EXECUTION TIME: 60.0623031 seconds]]>
     </line>
     <line>
       <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
@@ -200,6 +233,12 @@
       <![CDATA[STEP 4: Checking password field.]]>
     </line>
     <line>
+      <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+    </line>
+    <line>
+      <![CDATA[STEP 2: Waiting for login page elements.]]>
+    </line>
+    <line>
       <![CDATA[Password field: VISIBLE.]]>
     </line>
     <line>
@@ -212,7 +251,46 @@
       <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
     </line>
     <line>
-      <![CDATA[EXECUTION TIME: 2.6493456 seconds]]>
+      <![CDATA[EXECUTION TIME: 1.033308 seconds]]>
+    </line>
+    <line>
+      <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Automatic logout skipped for login-page tests.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is ready.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 3: Checking username field.]]>
+    </line>
+    <line>
+      <![CDATA[Username field: VISIBLE.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 4: Checking password field.]]>
+    </line>
+    <line>
+      <![CDATA[Password field: VISIBLE.]]>
+    </line>
+    <line>
+      <![CDATA[STEP 5: Checking Login button.]]>
+    </line>
+    <line>
+      <![CDATA[Login button: VISIBLE AND ENABLED.]]>
+    </line>
+    <line>
+      <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
+    </line>
+    <line>
+      <![CDATA[EXECUTION TIME: 1.1886029 seconds]]>
     </line>
     <line>
       <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
@@ -233,84 +311,6 @@
       <![CDATA[After Test]]>
     </line>
     <line>
-      <![CDATA[STEP 6: Verifying Home page navigation.]]>
-    </line>
-    <line>
-      <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
-    </line>
-    <line>
-      <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
-    </line>
-    <line>
-      <![CDATA[EXECUTION TIME: 47.8978803 seconds]]>
-    </line>
-    <line>
-      <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[Automatic logout skipped for login-page tests.]]>
-    </line>
-    <line>
-      <![CDATA[Automatic login skipped for login-page tests.]]>
-    </line>
-    <line>
-      <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-    </line>
-    <line>
-      <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-    </line>
-    <line>
-      <![CDATA[STEP 2: Waiting for login page elements.]]>
-    </line>
-    <line>
-      <![CDATA[Login page is ready.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 3: Checking username field.]]>
-    </line>
-    <line>
-      <![CDATA[Username field: VISIBLE.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 4: Checking password field.]]>
-    </line>
-    <line>
-      <![CDATA[Password field: VISIBLE.]]>
-    </line>
-    <line>
-      <![CDATA[STEP 5: Checking Login button.]]>
-    </line>
-    <line>
-      <![CDATA[Login button: VISIBLE AND ENABLED.]]>
-    </line>
-    <line>
-      <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
-    </line>
-    <line>
-      <![CDATA[EXECUTION TIME: 0.8719069 seconds]]>
-    </line>
-    <line>
-      <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[Automatic logout skipped for login-page tests.]]>
-    </line>
-    <line>
-      <![CDATA[After Class: Closing browser]]>
-    </line>
-    <line>
       <![CDATA[Browser closed]]>
     </line>
     <line>
@@ -326,7 +326,7 @@
       <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
     </line>
     <line>
-      <![CDATA[EXECUTION TIME: 48.3489476 seconds]]>
+      <![CDATA[EXECUTION TIME: 54.118229 seconds]]>
     </line>
     <line>
       <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
@@ -380,7 +380,7 @@
       <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
     </line>
     <line>
-      <![CDATA[EXECUTION TIME: 0.6984806 seconds]]>
+      <![CDATA[EXECUTION TIME: 0.6747448 seconds]]>
     </line>
     <line>
       <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
@@ -404,7 +404,7 @@
       <![CDATA[After Suite]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-24T14:27:01 IST" name="VTiger CRM Cross Browser Suite" finished-at="2026-10-24T14:28:48 IST" duration-ms="106636">
+  <suite started-at="2026-10-24T14:56:55 IST" name="VTiger CRM Cross Browser Suite" finished-at="2026-10-24T14:58:18 IST" duration-ms="82878">
     <groups>
       <group name="functional">
         <method signature="VTiger_CRM_LoginPage_TS1.VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" name="VTiger_CRM_TC_Login_01_ValidLogin" class="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1"/>
@@ -427,396 +427,16 @@
         <method signature="VTiger_CRM_LoginPage_TS1.VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" class="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1"/>
       </group> <!-- EP -->
     </groups>
-    <test started-at="2026-10-24T14:27:01 IST" name="Firefox Tests" finished-at="2026-10-24T14:28:12 IST" duration-ms="70885">
+    <test started-at="2026-10-24T14:56:55 IST" name="Chrome Tests" finished-at="2026-10-24T14:58:08 IST" duration-ms="73475">
       <class name="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1">
-        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:27:01 IST" name="bt" finished-at="2026-10-24T14:27:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:56:55 IST" name="bt" finished-at="2026-10-24T14:56:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Test]]>
             </line>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:27:01 IST" name="navigateTOApp" finished-at="2026-10-24T14:27:13 IST" duration-ms="12528" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Before Class: Launching browser]]>
-            </line>
-            <line>
-              <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[Browser window verified. Window count: 1]]>
-            </line>
-            <line>
-              <![CDATA[All shared Page Object Model objects initialized.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- navigateTOApp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:27:13 IST" name="login" finished-at="2026-10-24T14:27:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic login skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:27:13 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:28:06 IST" duration-ms="52761" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-            </line>
-            <line>
-              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[STEP 2: Waiting for login page elements.]]>
-            </line>
-            <line>
-              <![CDATA[Login page is ready.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 3: Entering username.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 4: Entering password.]]>
-            </line>
-            <line>
-              <![CDATA[Password entered. Sensitive values are not logged.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 5: Clicking Login.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 6: Verifying Home page navigation.]]>
-            </line>
-            <line>
-              <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
-            </line>
-            <line>
-              <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[EXECUTION TIME: 52.7362968 seconds]]>
-            </line>
-            <line>
-              <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VTiger_CRM_TC_Login_01_ValidLogin -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:06 IST" name="logout" finished-at="2026-10-24T14:28:06 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic logout skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:06 IST" name="login" finished-at="2026-10-24T14:28:06 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic login skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:06 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:28:09 IST" duration-ms="2673" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-            </line>
-            <line>
-              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[STEP 2: Waiting for login page elements.]]>
-            </line>
-            <line>
-              <![CDATA[Login page is ready.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 3: Checking username field.]]>
-            </line>
-            <line>
-              <![CDATA[Username field: VISIBLE.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 4: Checking password field.]]>
-            </line>
-            <line>
-              <![CDATA[Password field: VISIBLE.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 5: Checking Login button.]]>
-            </line>
-            <line>
-              <![CDATA[Login button: VISIBLE AND ENABLED.]]>
-            </line>
-            <line>
-              <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[EXECUTION TIME: 2.6493456 seconds]]>
-            </line>
-            <line>
-              <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VTiger_CRM_TC_Login_02_LoginPageElementsVisibility -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:09 IST" name="logout" finished-at="2026-10-24T14:28:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic logout skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:09 IST" name="closeBrowser" finished-at="2026-10-24T14:28:12 IST" duration-ms="2582" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Class: Closing browser]]>
-            </line>
-            <line>
-              <![CDATA[Browser closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:28:12 IST" name="at" finished-at="2026-10-24T14:28:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- at -->
-      </class> <!-- CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1 -->
-    </test> <!-- Firefox Tests -->
-    <test started-at="2026-10-24T14:27:01 IST" name="Edge Tests" finished-at="2026-10-24T14:28:19 IST" duration-ms="77832">
-      <class name="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1">
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:27:01 IST" name="dbConnection" finished-at="2026-10-24T14:27:01 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Suite]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- dbConnection -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:27:01 IST" name="bt" finished-at="2026-10-24T14:27:01 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bt -->
-        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:27:01 IST" name="navigateTOApp" finished-at="2026-10-24T14:27:29 IST" duration-ms="28016" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Before Class: Launching browser]]>
-            </line>
-            <line>
-              <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[Browser window verified. Window count: 1]]>
-            </line>
-            <line>
-              <![CDATA[All shared Page Object Model objects initialized.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- navigateTOApp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:27:29 IST" name="login" finished-at="2026-10-24T14:27:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic login skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:27:29 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:28:17 IST" duration-ms="47902" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-            </line>
-            <line>
-              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[STEP 2: Waiting for login page elements.]]>
-            </line>
-            <line>
-              <![CDATA[Login page is ready.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 3: Entering username.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 4: Entering password.]]>
-            </line>
-            <line>
-              <![CDATA[Password entered. Sensitive values are not logged.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 5: Clicking Login.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 6: Verifying Home page navigation.]]>
-            </line>
-            <line>
-              <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
-            </line>
-            <line>
-              <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[EXECUTION TIME: 47.8978803 seconds]]>
-            </line>
-            <line>
-              <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VTiger_CRM_TC_Login_01_ValidLogin -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:17 IST" name="logout" finished-at="2026-10-24T14:28:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic logout skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:17 IST" name="login" finished-at="2026-10-24T14:28:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic login skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:17 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:28:18 IST" duration-ms="880" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
-            </line>
-            <line>
-              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
-            </line>
-            <line>
-              <![CDATA[STEP 2: Waiting for login page elements.]]>
-            </line>
-            <line>
-              <![CDATA[Login page is ready.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 3: Checking username field.]]>
-            </line>
-            <line>
-              <![CDATA[Username field: VISIBLE.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 4: Checking password field.]]>
-            </line>
-            <line>
-              <![CDATA[Password field: VISIBLE.]]>
-            </line>
-            <line>
-              <![CDATA[STEP 5: Checking Login button.]]>
-            </line>
-            <line>
-              <![CDATA[Login button: VISIBLE AND ENABLED.]]>
-            </line>
-            <line>
-              <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[EXECUTION TIME: 0.8719069 seconds]]>
-            </line>
-            <line>
-              <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VTiger_CRM_TC_Login_02_LoginPageElementsVisibility -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:18 IST" name="logout" finished-at="2026-10-24T14:28:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Automatic logout skipped for login-page tests.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:18 IST" name="closeBrowser" finished-at="2026-10-24T14:28:19 IST" duration-ms="961" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Class: Closing browser]]>
-            </line>
-            <line>
-              <![CDATA[Browser closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:19 IST" name="at" finished-at="2026-10-24T14:28:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- at -->
-        <test-method is-config="true" signature="closeConnection()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:28:48 IST" name="closeConnection" finished-at="2026-10-24T14:28:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Suite]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeConnection -->
-      </class> <!-- CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1 -->
-    </test> <!-- Edge Tests -->
-    <test started-at="2026-10-24T14:27:01 IST" name="Chrome Tests" finished-at="2026-10-24T14:28:48 IST" duration-ms="106636">
-      <class name="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1">
-        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:27:01 IST" name="bt" finished-at="2026-10-24T14:27:01 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bt -->
-        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:27:01 IST" name="navigateTOApp" finished-at="2026-10-24T14:27:58 IST" duration-ms="56985" status="PASS">
+        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:56:55 IST" name="navigateTOApp" finished-at="2026-10-24T14:57:05 IST" duration-ms="10397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -839,14 +459,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- navigateTOApp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:27:58 IST" name="login" finished-at="2026-10-24T14:27:58 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:57:05 IST" name="login" finished-at="2026-10-24T14:57:05 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Automatic login skipped for login-page tests.]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:27:58 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:28:46 IST" duration-ms="48355" status="PASS">
+        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:57:05 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:58:06 IST" duration-ms="60526" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
@@ -888,7 +508,7 @@
               <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
             </line>
             <line>
-              <![CDATA[EXECUTION TIME: 48.3489476 seconds]]>
+              <![CDATA[EXECUTION TIME: 60.3700597 seconds]]>
             </line>
             <line>
               <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
@@ -898,21 +518,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- VTiger_CRM_TC_Login_01_ValidLogin -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:46 IST" name="logout" finished-at="2026-10-24T14:28:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:06 IST" name="logout" finished-at="2026-10-24T14:58:06 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Automatic logout skipped for login-page tests.]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:46 IST" name="login" finished-at="2026-10-24T14:28:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:06 IST" name="login" finished-at="2026-10-24T14:58:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Automatic login skipped for login-page tests.]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:46 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:28:47 IST" duration-ms="701" status="PASS">
+        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:06 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:58:07 IST" duration-ms="1040" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
@@ -954,7 +574,7 @@
               <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
             </line>
             <line>
-              <![CDATA[EXECUTION TIME: 0.6984806 seconds]]>
+              <![CDATA[EXECUTION TIME: 1.033308 seconds]]>
             </line>
             <line>
               <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
@@ -964,14 +584,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- VTiger_CRM_TC_Login_02_LoginPageElementsVisibility -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:47 IST" name="logout" finished-at="2026-10-24T14:28:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:07 IST" name="logout" finished-at="2026-10-24T14:58:07 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Automatic logout skipped for login-page tests.]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:47 IST" name="closeBrowser" finished-at="2026-10-24T14:28:47 IST" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:07 IST" name="closeBrowser" finished-at="2026-10-24T14:58:08 IST" duration-ms="1276" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Class: Closing browser]]>
@@ -981,7 +601,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:28:47 IST" name="at" finished-at="2026-10-24T14:28:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@1e04fa0a]" started-at="2026-10-24T14:58:08 IST" name="at" finished-at="2026-10-24T14:58:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Test]]>
@@ -990,5 +610,385 @@
         </test-method> <!-- at -->
       </class> <!-- CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1 -->
     </test> <!-- Chrome Tests -->
+    <test started-at="2026-10-24T14:56:55 IST" name="Edge Tests" finished-at="2026-10-24T14:58:09 IST" duration-ms="74512">
+      <class name="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:56:55 IST" name="dbConnection" finished-at="2026-10-24T14:56:55 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:56:55 IST" name="bt" finished-at="2026-10-24T14:56:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:56:55 IST" name="navigateTOApp" finished-at="2026-10-24T14:57:06 IST" duration-ms="11249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[Browser window verified. Window count: 1]]>
+            </line>
+            <line>
+              <![CDATA[All shared Page Object Model objects initialized.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateTOApp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:57:06 IST" name="login" finished-at="2026-10-24T14:57:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic login skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:57:06 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:58:06 IST" duration-ms="60066" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+            </line>
+            <line>
+              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2: Waiting for login page elements.]]>
+            </line>
+            <line>
+              <![CDATA[Login page is ready.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 3: Entering username.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4: Entering password.]]>
+            </line>
+            <line>
+              <![CDATA[Password entered. Sensitive values are not logged.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5: Clicking Login.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 6: Verifying Home page navigation.]]>
+            </line>
+            <line>
+              <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
+            </line>
+            <line>
+              <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[EXECUTION TIME: 60.0623031 seconds]]>
+            </line>
+            <line>
+              <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VTiger_CRM_TC_Login_01_ValidLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:06 IST" name="logout" finished-at="2026-10-24T14:58:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic logout skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:06 IST" name="login" finished-at="2026-10-24T14:58:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic login skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:06 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:58:07 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+            </line>
+            <line>
+              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2: Waiting for login page elements.]]>
+            </line>
+            <line>
+              <![CDATA[Login page is ready.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 3: Checking username field.]]>
+            </line>
+            <line>
+              <![CDATA[Username field: VISIBLE.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4: Checking password field.]]>
+            </line>
+            <line>
+              <![CDATA[Password field: VISIBLE.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5: Checking Login button.]]>
+            </line>
+            <line>
+              <![CDATA[Login button: VISIBLE AND ENABLED.]]>
+            </line>
+            <line>
+              <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[EXECUTION TIME: 1.1886029 seconds]]>
+            </line>
+            <line>
+              <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VTiger_CRM_TC_Login_02_LoginPageElementsVisibility -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:07 IST" name="logout" finished-at="2026-10-24T14:58:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic logout skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:07 IST" name="closeBrowser" finished-at="2026-10-24T14:58:09 IST" duration-ms="1932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:09 IST" name="at" finished-at="2026-10-24T14:58:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@48aca48b]" started-at="2026-10-24T14:58:18 IST" name="closeConnection" finished-at="2026-10-24T14:58:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1 -->
+    </test> <!-- Edge Tests -->
+    <test started-at="2026-10-24T14:56:55 IST" name="Firefox Tests" finished-at="2026-10-24T14:58:18 IST" duration-ms="82878">
+      <class name="CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1">
+        <test-method is-config="true" signature="bt()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:56:55 IST" name="bt" finished-at="2026-10-24T14:56:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="navigateTOApp(java.lang.String)[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:56:55 IST" name="navigateTOApp" finished-at="2026-10-24T14:57:20 IST" duration-ms="25428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application URL opened: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[Browser window verified. Window count: 1]]>
+            </line>
+            <line>
+              <![CDATA[All shared Page Object Model objects initialized.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateTOApp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:57:20 IST" name="login" finished-at="2026-10-24T14:57:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic login skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VTiger_CRM_TC_Login_01_ValidLogin()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:57:20 IST" name="VTiger_CRM_TC_Login_01_ValidLogin" description="TC-VT-LOGIN-01 - Verify login with valid credentials" finished-at="2026-10-24T14:58:14 IST" duration-ms="54125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST STARTED: TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+            </line>
+            <line>
+              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2: Waiting for login page elements.]]>
+            </line>
+            <line>
+              <![CDATA[Login page is ready.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 3: Entering username.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4: Entering password.]]>
+            </line>
+            <line>
+              <![CDATA[Password entered. Sensitive values are not logged.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5: Clicking Login.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 6: Verifying Home page navigation.]]>
+            </line>
+            <line>
+              <![CDATA[Actual URL: http://49.249.29.4:8888/index.php?action=index&module=Home]]>
+            </line>
+            <line>
+              <![CDATA[RESULT: PASS - TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[EXECUTION TIME: 54.118229 seconds]]>
+            </line>
+            <line>
+              <![CDATA[TEST FINISHED: TC-VT-LOGIN-01]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VTiger_CRM_TC_Login_01_ValidLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:14 IST" name="logout" finished-at="2026-10-24T14:58:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic logout skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:14 IST" name="login" finished-at="2026-10-24T14:58:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic login skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:14 IST" name="VTiger_CRM_TC_Login_02_LoginPageElementsVisibility" description="TC-VT-LOGIN-02 - Verify login page elements visibility" finished-at="2026-10-24T14:58:15 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST STARTED: TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP 1: Opening VTiger CRM login page.]]>
+            </line>
+            <line>
+              <![CDATA[Application URL: http://49.249.29.4:8888/]]>
+            </line>
+            <line>
+              <![CDATA[STEP 2: Waiting for login page elements.]]>
+            </line>
+            <line>
+              <![CDATA[Login page is ready.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 3: Checking username field.]]>
+            </line>
+            <line>
+              <![CDATA[Username field: VISIBLE.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 4: Checking password field.]]>
+            </line>
+            <line>
+              <![CDATA[Password field: VISIBLE.]]>
+            </line>
+            <line>
+              <![CDATA[STEP 5: Checking Login button.]]>
+            </line>
+            <line>
+              <![CDATA[Login button: VISIBLE AND ENABLED.]]>
+            </line>
+            <line>
+              <![CDATA[RESULT: PASS - TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[EXECUTION TIME: 0.6747448 seconds]]>
+            </line>
+            <line>
+              <![CDATA[TEST FINISHED: TC-VT-LOGIN-02]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VTiger_CRM_TC_Login_02_LoginPageElementsVisibility -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:15 IST" name="logout" finished-at="2026-10-24T14:58:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automatic logout skipped for login-page tests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:15 IST" name="closeBrowser" finished-at="2026-10-24T14:58:18 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="at()[pri:0, instance:CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1@4efac082]" started-at="2026-10-24T14:58:18 IST" name="at" finished-at="2026-10-24T14:58:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- CRM.BITM.VTiger.LoginPage.VTiger_CRM_LoginPage_TS1 -->
+    </test> <!-- Firefox Tests -->
   </suite> <!-- VTiger CRM Cross Browser Suite -->
 </testng-results>
